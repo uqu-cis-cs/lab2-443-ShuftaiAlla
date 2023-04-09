@@ -22,7 +22,6 @@ public class Garage{
      *
      */
     private Car[] allcars=new Car[3];;
-    
     /**** Part 2 ******/
     /**
      * Decalre a static/class variable named countCars
@@ -134,7 +133,6 @@ public class Garage{
      * public void methodName(String m)
      *
      */
-
     public void moveIn(String model){
       
         for(int i =0 ; i<countCars;i++)
@@ -145,8 +143,8 @@ public class Garage{
                 allcars[i].moveCarIn();
             }
         }
+  
     }
-
 
     /**** Part 7 ******/
     /**
@@ -167,7 +165,7 @@ public class Garage{
          
        }
         System.out.println();
-
+ 
    }
 
 

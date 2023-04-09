@@ -23,7 +23,7 @@ public class Car{
      */
     private String model;
     private boolean inOutGarage;
-
+    
     /**** Part 2 ******/
     /**
      * Define a default constructor and set 
@@ -40,7 +40,6 @@ public class Car{
         inOutGarage=false;
         model="";
     }
-
     /**** Part 3 ******/
     /**
      * Define all getter methods below
@@ -57,7 +56,6 @@ public class Car{
     public boolean getInOutGarage() {
         return inOutGarage;
     }
-
     /**** Part 4 ******/
     /**
      * Define all setter methods below
@@ -67,7 +65,6 @@ public class Car{
      * }
      *
      */
-
     public void setModel(String m)
     {
          model=m;
@@ -93,6 +90,5 @@ public class Car{
      {
         inOutGarage=true;
      }
-
 
 }

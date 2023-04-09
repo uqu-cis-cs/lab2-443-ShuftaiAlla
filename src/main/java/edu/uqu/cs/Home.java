@@ -9,7 +9,7 @@ package edu.uqu.cs;
 */
 import java.util.Scanner;
 
-public class Home{
+public class Home{ 
 	public static void main(String [] args){
 
 		// Create an object of type Garage 
